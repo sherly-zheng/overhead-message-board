@@ -1,0 +1,60 @@
+h1 {
+	font-size: 30px;
+	text-align: center;
+}
+
+.board {
+	margin: auto;
+	background-color: black;
+	height: 312px;
+	width: 1200px;
+	border: 10px solid black;
+	overflow: hidden;
+}
+
+.board .tile {
+	background-color: black;
+	height: 84px;
+	width: 50px;
+	margin: 10px 5px;
+	float: left;
+}
+
+.tile .pixelval0 {
+	background-color: #111111;
+	height: 12px;
+	width: 10px;
+	float: left;
+	border-radius: 6px;
+}
+
+.tile .pixelval1 {
+	background-color: yellow;
+	height: 12px;
+	width: 10px;
+	float: left;
+	border-radius: 6px;
+}
+
+.boardinput {
+	padding-top: 30px;
+	width: 100%;
+}
+
+.boardinput .text, .btns {
+	width: 60%;
+	height: 60px;
+	resize: vertical;
+	margin: 0 auto;
+	display: block;
+	font-size: 18px;
+}
+
+.btns {
+	padding: 10px;
+}
+
+.submitbtn, .clearbtn{
+	float: right;
+	margin-right: 5px;
+}
